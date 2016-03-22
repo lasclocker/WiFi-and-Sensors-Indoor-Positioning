@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- to use 9-Patch image, change bitmap to nine-patch -->
+    
+    <item android:drawable="@android:color/darker_gray"/>
+    <item>
+        <bitmap                           
+            android:gravity="center"
+            android:src="@drawable/splash_3" />
+    </item>
+
+</layer-list>

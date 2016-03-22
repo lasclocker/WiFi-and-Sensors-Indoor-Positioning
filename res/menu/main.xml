@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.activity.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_white_1"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_plus"
+        android:icon="@drawable/plus_white_2"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_plus">
+        <menu>
+            <item
+                android:id="@+id/start_step"
+                android:icon="@drawable/start_white_4"
+                android:showAsAction="ifRoom"
+                android:title="start step"/>
+            <item
+                android:id="@+id/correct_step"
+                android:icon="@drawable/correct_white_2"
+                android:showAsAction="ifRoom"
+                android:title="correct step"/>
+            <item
+                android:id="@+id/stop_step"
+                android:icon="@drawable/stop_white_1"
+                android:showAsAction="ifRoom"
+                android:title="stop step"/>
+            <item
+                android:id="@+id/show_step"
+                android:icon="@drawable/show_white_1"
+                android:showAsAction="ifRoom"
+                android:title="show step"/>
+            <item
+                android:id="@+id/link_network"
+                android:icon="@drawable/link_white_1"
+                android:showAsAction="ifRoom"
+                android:title="connect"/>
+            <item
+                android:id="@+id/broken_link_network"
+                android:icon="@drawable/broken_link_white_1"
+                android:showAsAction="ifRoom"
+                android:title="disconnect"/>
+        </menu>
+    </item>
+
+</menu>

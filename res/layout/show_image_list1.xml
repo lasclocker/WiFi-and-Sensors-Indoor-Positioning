@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:padding="5dp">
+	
+    <!-- this xml corresponds to com.example.util.IndoorMapArrayAdapter -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        android:layout_gravity="center" 
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@+id/label"
+        android:textSize="30px" >
+    </TextView>
+
+</LinearLayout>

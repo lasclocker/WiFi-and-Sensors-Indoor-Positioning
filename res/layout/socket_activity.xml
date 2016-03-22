@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- this xml corresponds to com.example.activity.SocketActivity -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" IP : " />
+
+        <EditText
+            android:id="@+id/etIP"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="192.168.2.101" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Port : " />
+
+        <EditText
+            android:id="@+id/etPort"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="8080" />
+
+    </LinearLayout>
+
+</LinearLayout>

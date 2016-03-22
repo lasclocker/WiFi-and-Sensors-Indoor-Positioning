@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >"
+
+<!-- this xml corresponds to com.example.activity.RssActivity -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/textView_acquireSignalTotalNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" TotalNum : " />
+
+        <EditText
+            android:id="@+id/editText_acquireSignalTotalNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView_acquireTimeInterval_ms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Interval_ms : " />
+
+        <EditText
+            android:id="@+id/editText_acquireTimeInterval_ms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/textView_SSID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" SSID : " />
+
+        <EditText
+            android:id="@+id/editText_SSID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lab524_1,lab524_2,lab524_3" >
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+
+</LinearLayout>
