@@ -3,3 +3,4 @@ This project introduces how to conduct indoor positioning using multi-sensors, i
 
 
 ![Alt text](res/drawable/ic_launcher_map.png?raw=true "Optional Title")
+<img src="res/drawable/splash_image.jpg" width="54*3" height="96*3">
